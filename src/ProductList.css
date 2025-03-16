@@ -86,6 +86,31 @@ body {
     margin-bottom: 10px;
 }
 
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.cart-count {
+    position: absolute;
+    /*top: 0;
+    right: 0;
+    background-color: red;*/
+    color: white;
+    /*font-size: 14px;*/
+    font-weight: bold;
+    width: 30px;
+    height: 20px;
+    
+}
+
+.product-category {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
 .product-price {
     color: #e74c3c;
     font-size: 1.2rem;
@@ -109,6 +134,10 @@ body {
 
 .product-button:hover {
     background-color: #c0392b;
+}
+.product-button:disabled{
+    background-color: gray;
+    cursor:default; 
 }
 
 /* Pseudo-elements - Sale badge */
